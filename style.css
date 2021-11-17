@@ -13,6 +13,110 @@
     clear: both;
 }
 
-div{
-    color: red;
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* Top-bar/Header */
+
+header{
+    background-color: rgb(49,97,224);
+    color: white;
+}
+
+.top-bar{
+    height: 100px;
+    line-height: 100px;
+}
+
+/* Dimensioni e posizionamento colonne  */
+
+.col{
+    float: left;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+/* Centering */
+
+.text-center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* logo */
+
+#logo{
+    vertical-align: middle;
+}
+
+/* Menu & related*/
+
+li{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Buttons */
+
+.button{
+    border-radius: 25px;
+    margin: 0 20px;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.small{
+    padding: 15px 20px;
+}
+
+.big{
+    padding: 20px 25px;
+    font-size: 2em;
+}
+
+/* Spotlight */
+
+.spotlight{
+    min-height: 600px;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+p{
+    max-width: 600px;
+    font-weight: bold;
 }
