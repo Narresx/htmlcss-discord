@@ -39,6 +39,11 @@ header{
     width: 20%;
 }
 
+.w-35{
+    margin-top: 10%;
+    width: 35%;
+}
+
 .w-50{
     width: 50%;
 }
@@ -47,6 +52,10 @@ header{
     width: 60%;
 }
 
+.w-65{
+    margin-top: 10%;
+    width: 65%;
+}
 /* Centering */
 
 .text-center{
@@ -139,4 +148,18 @@ p{
 
 .arrow{
     font-size: 1.2em;
+}
+
+/* Section-1 */
+
+.section-1{
+    background-image: url(./img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+}
+
+h2{
+    font-size: 5em;
 }
