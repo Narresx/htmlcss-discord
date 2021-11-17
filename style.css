@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .clearfix::after{
@@ -51,7 +51,6 @@ header{
 
 .text-center{
     text-align: center;
-    vertical-align: middle;
 }
 
 /* logo */
@@ -70,6 +69,7 @@ li{
 a{
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover{
@@ -80,7 +80,6 @@ a:hover{
 /* Buttons */
 
 .button{
-    border-radius: 25px;
     margin: 0 20px;
 }
 
@@ -95,12 +94,14 @@ a:hover{
 }
 
 .small{
+    border-radius: 25px;
     padding: 15px 20px;
 }
 
 .big{
-    padding: 20px 25px;
-    font-size: 2em;
+    border-radius: 40px;
+    padding: 25px 25px;
+    font-size: 1.8em;
 }
 
 /* Spotlight */
@@ -110,13 +111,32 @@ a:hover{
     background-image: url(./img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.w-50{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1{
+    font-size: 3.5em;
     margin-bottom: 50px;
 }
 
 p{
-    max-width: 600px;
+    font-size: 1.4em;
+    max-width: auto;
     font-weight: bold;
+}
+
+.bottom-header{
+    position: absolute;
+    bottom: -60%;
+}
+
+.arrow{
+    font-size: 1.2em;
 }
